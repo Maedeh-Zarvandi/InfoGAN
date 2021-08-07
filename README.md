@@ -1,18 +1,18 @@
 # BigBiGAN-PyTorch
 
-An unofficial small scale implementation of [BigBiGAN](https://arxiv.org/abs/1907.02544)
+Implementation of [InfoGAN](https://arxiv.org/abs/1606.03657)using [BigBiGAN](https://arxiv.org/abs/1907.02544) architecture.
 
 ## Architecture
-![BigBiGAN](https://github.com/RKorzeniowski/BigBiGAN-PyTorch/blob/main/imgs/bigbigan_arch.png)
+![InfoGAN](https://aiden.nibali.org/img/infogan_vs_gan_archs.svg)
 
-## Requirements
+<!-- ## Requirements
 ```
 Python 3.6.9
 PyTorch 1.6.0
 Numpy 1.18.5
-```
+``` -->
 
-## Implementation
+<!-- ## Implementation
 
 ### Generator & Discriminator
 ![BigGAN](https://github.com/RKorzeniowski/BigBiGAN-PyTorch/blob/main/imgs/biggan_arch.jpg)
@@ -21,10 +21,10 @@ Both generator and discriminator follow architecture presented in the [BigGAN](h
 
 ### Encoder
 
-The encoder is implemented as [RevNet](https://arxiv.org/abs/1901.09005) with few fully connected layers on top.
+The encoder is implemented as [RevNet](https://arxiv.org/abs/1901.09005) with few fully connected layers on top. -->
 
 ## How to use 
-`python train_gan.py --dataset {supported_dataset} --data_path {path/to/dataset/folder}`
+Use the .ipynb file to use.
 
 ## Supported Datasets
 - MNIST 32x32
@@ -34,7 +34,7 @@ The encoder is implemented as [RevNet](https://arxiv.org/abs/1901.09005) with fe
 - Imagewoof 64x64
 - Imagenette 64x64
 
-## Samples
+<!-- ## Samples
 
 ### CIFAR10
 
@@ -49,4 +49,4 @@ BigGAN https://github.com/taki0112/BigGAN-Tensorflow
 
 RevNet https://github.com/google/revisiting-self-supervised
 
-Tensorflow implementation of BigBiGAN https://github.com/LEGO999/BigBiGAN-TensorFlow2.0
+Tensorflow implementation of BigBiGAN https://github.com/LEGO999/BigBiGAN-TensorFlow2.0 -->
